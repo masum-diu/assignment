@@ -123,3 +123,21 @@ button {
 .developer-content p {
   font-size: 22px;
 }
+/* global-community-area */
+.global-community-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.global-community-content h1 {
+  font-size: 36px;
+}
+.global-community-content p {
+  font-size: 22px;
+}
+.global-community-image img {
+  width: 400px;
+  height: 400px;
+}
