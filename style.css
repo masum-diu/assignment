@@ -19,27 +19,30 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -160px;
+  margin-top: -120px;
 }
 .leftSide h1 {
-  font-size: 60px;
+  font-size: 70px;
   background-image: url(./images/shapes/Rectangle\ 27635.svg);
   background-repeat: no-repeat;
   background-position: left;
   padding: 15px;
 }
 .leftSide p {
-  width: 59%;
+  width: 50%;
   margin-top: -20px;
+  font-size: 20px;
 }
 
 .leftSide h4 {
   color: #434343;
   font-weight: 100;
+  font-size: 20px;
 }
 .rightSide img {
-  width: 100%;
-  height: 95vh;
+  width: 426px;
+  height: 623px;
+  margin-right: 20px;
 }
 
 /* mission-area */
@@ -66,6 +69,7 @@ button {
 }
 .mission p {
   text-align: justify;
+  font-size: 20px;
 }
 .vission {
   background-color: #ffeeee;
@@ -80,6 +84,7 @@ button {
 }
 .vission p {
   text-align: justify;
+  font-size: 20px;
 }
 .goals {
   background-color: #fff4d6;
@@ -94,4 +99,27 @@ button {
 }
 .goals p {
   text-align: justify;
+  font-size: 20px;
+}
+
+/* developer-area */
+
+.developer-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.developer-area img {
+  width: 400px;
+  height: 400px;
+}
+.developer-content {
+  margin-left: 50px;
+}
+.developer-content h1 {
+  font-size: 36px;
+}
+.developer-content p {
+  font-size: 22px;
 }
