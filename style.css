@@ -75,6 +75,7 @@ button {
 }
 .mission p {
   font-size: 20px;
+  text-align: justify;
 }
 .vission {
   background-color: #ffeeee;
@@ -89,6 +90,7 @@ button {
 }
 .vission p {
   font-size: 20px;
+  text-align: justify;
 }
 .goals {
   background-color: #fff4d6;
